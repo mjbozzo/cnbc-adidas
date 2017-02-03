@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.app-container {
+    width: 100vw;
+    height: auto;
+}
+
+.app-container header {
+    width: 100%;
+    height: 6vh;
+    background: url("../images/app.header.png") no-repeat;
+    background-size: 100%;
+}
+
+.app-container .top-ad {
+    background: url("../images/top-ad.png") no-repeat;
+    background-size: 100%;
+    width: 77%;
+    height: 13vh;
+    margin: 0.7vh auto;
+}
+
+.app-container .article-header {
+    background: url("../images/article.header.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 49vh;
+    margin-top: 2vh;
+}
+
+.app-container article {
+    width: 60%;
+    padding-left: 1%;
+    float: left;
+}
+
+.app-container article img {
+    max-width: 100%;
+}
+
+.app-container aside {
+    width: 40%;
+    float: left;
+}
+
+.app-container aside .aside-ad {
+    background: url("../images/aside-ad.png") no-repeat;
+    background-size: contain;
+    height: 65vh;
+    width: 60%;
+    margin: auto;
+}
+
+.app-container aside section {
+    width: 70%;
+}
+
+.app-container aside .from-the-web {
+    background: url("../images/aside.from-the-web.png") no-repeat;
+    background-size: contain;
+    height: 47vh;
+    margin: 5vh auto 3vh;
+}
+
+.app-container aside .more-from {
+    background: url("../images/aside.more-from.png") no-repeat;
+    background-size: contain;
+    height: 40vh;
+    margin: auto;
+}
+
+.app-container aside .most-popular {
+    background: url("../images/aside.most-popular.png") no-repeat;
+    background-size: contain;
+    height: 50vh;
+    margin: 3vh auto;
+}
+
+.app-container .social {
+    background: url("../images/bottom.social.png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6vh;
+    width: 43%;
+    margin: auto;
+}
